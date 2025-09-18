@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "679982133037",
+    "project_id": "vitta-fisio-app",
+    "storage_bucket": "vitta-fisio-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679982133037:android:725c4f469ce7a21a5beda4",
+        "android_client_info": {
+          "package_name": "com.example.vitta_fisio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlhL7ssCmnhk72eUfbQOMGvIDC7aRSs9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

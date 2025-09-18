@@ -1,25 +1,13 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:vitta_fisio/pages/cadastro_page.dart';
 
-
 void main() async {
-  // WidgetsFlutterBinding.ensureInitialized();
-  // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  // final firestore = FirebaseFirestore.instance;
-  // final pacienteRemoteDatasource = PacienteRemoteDatasourceImpl(
-  //   firestore: firestore,
-  // );
-  // final pacienteRepository = PacienteRepositoryImpl(pacienteRemoteDatasource);
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  print('Firebase iniciado com sucesso');
 
-  // Get.put(
-  //   PacienteController(
-  //     addPacienteUseCase: AddPacienteUseCase(pacienteRepository),
-  //     getPacientesUseCase: GetPacientesUseCase(pacienteRepository),
-  //     updatePacienteUseCase: UpdatePacienteUseCase(pacienteRepository),
-  //     deletePacienteUseCase: DeletePacienteUseCase(pacienteRepository),
-  //   ),
-  // );
   runApp(const MyApp());
 }
 
